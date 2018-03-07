@@ -179,7 +179,7 @@ $ docker rm tomcat
 ```
 Let's clean up, by removing all stopped containers.
 ```sh
-$ docker rm "$(docker ps -aq)"
+$ docker rm $(docker ps -aq)
 ```
 
 ### Linking containers

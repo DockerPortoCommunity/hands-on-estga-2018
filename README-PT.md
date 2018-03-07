@@ -186,7 +186,7 @@ $ docker rm tomcat
 Vamos remover todos os containers que estejam parados (stopped).
 ```sh
 # Magia!!
-$ docker rm `docker ps -aq`
+$ docker rm $(docker ps -aq)
 ```
 
 ### Linking containers
